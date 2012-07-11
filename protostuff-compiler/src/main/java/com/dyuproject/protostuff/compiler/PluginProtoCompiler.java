@@ -176,7 +176,7 @@ public class PluginProtoCompiler extends STCodeGenerator {
 
         if (hasMessageBlock) {
             for (Message m : proto.getMessages()) {
-                System.out.printf("processing with filePrefix=%s fileSuffix=%s %n",filePrefix,fileSuffix);
+               // System.out.printf("processing with filePrefix=%s fileSuffix=%s %n",filePrefix,fileSuffix);
 
                 String fileName = filePrefix + m.getName() + fileSuffix + fileExtension;
 
